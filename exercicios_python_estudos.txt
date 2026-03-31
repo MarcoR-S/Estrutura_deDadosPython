@@ -1,0 +1,81 @@
+ESTRUTURAS DE DADOS EM PYTHON - LISTAS, TUPLAS E DICIONÁRIOS
+
+Este conjunto de exercícios tem como objetivo desenvolver a lógica de programação utilizando estruturas de dados fundamentais em Python.
+
+-----------------------------------
+NÍVEL 1 - BÁSICO (LISTAS)
+-----------------------------------
+
+Exercício 1 - Lista de compras
+Crie uma lista com 5 itens de supermercado e exiba todos os itens na tela.
+
+Exercício 2 - Adicionando itens
+Peça ao usuário para digitar 3 frutas e adicione cada uma em uma lista utilizando append(). Ao final, mostre a lista completa.
+
+Exercício 3 - Removendo último item
+Dada uma lista de números, remova o último elemento utilizando pop() e mostre a lista atualizada.
+
+-----------------------------------
+NÍVEL 2 - MANIPULAÇÃO DE LISTAS
+-----------------------------------
+
+Exercício 4 - Inserindo no meio
+Crie uma lista com números fora de ordem e utilize insert() para adicionar o elemento correto na posição adequada.
+
+Exercício 5 - Soma de valores
+Crie uma lista com 5 números e utilize um loop para calcular a soma de todos os elementos.
+
+Exercício 6 - Validação de lista
+Crie uma função que verifica se todos os elementos de uma lista são números inteiros. Caso sejam, calcule a soma. Caso contrário, exiba uma mensagem de erro.
+
+-----------------------------------
+NÍVEL 3 - TUPLAS
+-----------------------------------
+
+Exercício 7 - Dados fixos
+Crie uma tupla com informações de um produto (nome, preço, categoria) e exiba cada informação separadamente.
+
+Exercício 8 - Sistema de níveis (ou imposto)
+Utilize duas tuplas:
+- Uma contendo valores base (pontuação ou salário)
+- Outra contendo classificações (níveis ou alíquotas)
+
+Receba um valor do usuário, percorra a tupla de valores base e determine o índice correspondente. Utilize esse índice para acessar a segunda tupla e exibir o resultado.
+
+-----------------------------------
+NÍVEL 4 - DICIONÁRIOS
+-----------------------------------
+
+Exercício 9 - Cadastro simples
+Crie um dicionário contendo nome, idade e cidade. Exiba os dados de forma organizada.
+
+Exercício 10 - Entrada do usuário
+Crie um dicionário vazio e preencha com dados fornecidos pelo usuário (nome, telefone, email). Exiba os dados ao final.
+
+-----------------------------------
+NÍVEL 5 - ESTRUTURAS COMBINADAS
+-----------------------------------
+
+Exercício 11 - Lista de alunos
+Crie uma lista onde cada elemento é um dicionário representando um aluno (nome e nota). Cadastre 3 alunos e exiba todos.
+
+Exercício 12 - Sistema de contatos
+Implemente um sistema com menu interativo contendo as opções:
+
+1 - Cadastrar contato
+2 - Listar contatos
+3 - Buscar contato pelo índice
+0 - Sair
+
+Requisitos:
+- Utilizar uma lista para armazenar os contatos
+- Cada contato deve ser um dicionário
+- O programa deve rodar continuamente utilizando um loop (while)
+- Implementar funções para organizar o código
+
+Objetivo final:
+Consolidar o uso de listas, tuplas, dicionários, funções e estruturas de controle.
+
+-----------------------------------
+FIM DO ARQUIVO
+-----------------------------------
